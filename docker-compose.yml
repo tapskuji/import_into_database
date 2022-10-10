@@ -1,0 +1,43 @@
+version: '3.8'
+services:
+
+  php:
+    container_name: imports-php
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    networks:
+      - imports
+    environment:
+      MYSQL_USER: '${DB_USERNAME}'
+      MYSQL_PASSWORD: '${DB_PASSWORD}'
+      MYSQL_DATABASE: '${DB_DATABASE}'
+      MYSQL_HOST: '${DB_HOST}'
+      MYSQL_PORT: '${DB_PORT}'
+    volumes:
+      - .:/apps
+    depends_on:
+      - mysql
+
+  # Mysql Database Server
+  mysql:
+    container_name: imports-database
+    image: mysql:5.7
+    ports:
+      - '${DB_PORT:-3306}:3306'
+    networks:
+      - imports
+    environment:
+      MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
+      MYSQL_USER: '${DB_USERNAME}'
+      MYSQL_PASSWORD: '${DB_PASSWORD}'
+      MYSQL_DATABASE: '${DB_DATABASE}'
+    volumes:
+      - "mysql_data:/var/lib/mysql"
+      - ./docker/mysql/data/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+
+networks:
+  imports:
+    driver: bridge
+volumes:
+  mysql_data: { driver: local }
