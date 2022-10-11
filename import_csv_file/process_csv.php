@@ -10,7 +10,8 @@ if($running > 1) {
     die('I am already running.');
 }
 
-error_log(date('Ymd - H:i:s -> ') . 'START', 3, __DIR__ . 'errors.log');
+$logfile = __DIR__ . '/errors.log';
+error_log(date('Ymd - H:i:s -> ') . 'START' . "\n", 3, $logfile);
 
 /* @var $db PDO instance */
 require __DIR__ . '/db_conn.php';
@@ -80,5 +81,5 @@ $newName = __DIR__ . '/processed/' . (new DateTime())->format('Ymd_His') . '.csv
 rename($file, $newName);
 
 $peakMemoryUsage = " Peak memory usage: ". (memory_get_peak_usage(true) / 1024 / 1024) . " MB";
-error_log(date('Ymd - H:i:s -> ') . $peakMemoryUsage . "\n", 3, __DIR__ . '/errors.log');
-error_log(date('Ymd - H:i:s -> ') . 'DONE' . "\n", 3, __DIR__ . '/errors.log');
+error_log(date('Ymd - H:i:s -> ') . $peakMemoryUsage . "\n", 3, $logfile);
+error_log(date('Ymd - H:i:s -> ') . 'DONE' . "\n", 3, $logfile);
