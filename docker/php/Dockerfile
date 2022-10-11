@@ -29,6 +29,10 @@ RUN apt-get install --yes libicu-dev \
 RUN apt-get install -y mariadb-client
 RUN docker-php-ext-install mysqli pdo_mysql
 
+## gd
+RUN apt-get install -y libwebp-dev libjpeg62-turbo-dev libpng-dev libxpm-dev libfreetype6-dev
+RUN docker-php-ext-install gd
+
 #COPY . /apps
 WORKDIR /apps
 

@@ -36,6 +36,17 @@ services:
       - "mysql_data:/var/lib/mysql"
       - ./docker/mysql/data/schema.sql:/docker-entrypoint-initdb.d/schema.sql
 
+  # composer package manager
+  composer:
+    container_name: imports-composer
+    build:
+      context: .
+      dockerfile: docker/composer/Dockerfile
+    volumes:
+      - .:/apps
+    networks:
+      - imports
+
 networks:
   imports:
     driver: bridge
