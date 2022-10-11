@@ -72,6 +72,26 @@ If there are any errors, check the logfile
 less /apps/import_txt_file/errors.log
 ```
 
+## Import data from json file into mysql
+
+1. Connect to php container
+
+```bash
+docker-compose run php /bin/bash
+```
+
+2. Run script
+
+```bash
+php /apps/import_json_file/process_json.php
+```
+
+If there are any errors, check the logfile
+
+```bash
+less /apps/import_json_file/errors.log
+```
+
 ## Mysql database
 
 Commands to check if the database, and the database tables were created.
