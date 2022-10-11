@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<students>
+	<student>
+		<id>50041</id>
+		<last>Dalot</last>
+		<first>Diogo</first>
+		<state>California</state>
+		<phone>(209) 555-525</phone>
+		<email>ddalot@alumni.rouxacademy.com</email>
+		<gradyear>2011</gradyear>
+		<gpa>2.47</gpa>
+		<program>Photography</program>
+	</student>
+	<student>
+		<id>50042</id>
+		<last>Varane</last>
+		<first>Raphaël</first>
+		<state>Texas</state>
+		<phone>(806) 555-552</phone>
+		<email>rvarane@alumni.rouxacademy.com</email>
+		<gradyear>2009</gradyear>
+		<gpa>3.19</gpa>
+		<program>Fine Art and Visual Culture</program>
+	</student>
+	<student>
+		<id>50043</id>
+		<last>Cook</last>
+		<first>Tim</first>
+		<state>Manchester</state>
+		<phone>(319) 555-018</phone>
+		<email>tcook2@alumni.rouxacademy.com</email>
+		<gradyear>2004</gradyear>
+		<gpa>3.64</gpa>
+		<program>Statistics</program>
+	</student>
+	<student>
+		<id>50044</id>
+		<last>Book</last>
+		<first>Jim</first>
+		<state>California</state>
+		<phone>(319) 555-018</phone>
+		<email>jbook@alumni.rouxacademy.com</email>
+		<gradyear>2004</gradyear>
+		<gpa>3.64</gpa>
+		<program>Business Finance</program>
+	</student>
+</students>

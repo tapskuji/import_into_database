@@ -1,0 +1,3 @@
+/processed/*.xml
+/incomplete/*.xml
+errors.log
