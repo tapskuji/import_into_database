@@ -1,0 +1,71 @@
+[
+	{
+		"id": 49011,
+		"last": "Beckham",
+		"first": "Victoria",
+		"state": "London",
+		"phone": "(81) 123-456",
+		"email": "vbackham@alumni.rouxacademy.com",
+		"gradyear": 2002,
+		"gpa": 2.47,
+		"program": "Fashion Designer"
+	},
+	{
+		"id": 49012,
+		"last": "Cruiz",
+		"first": "Tom",
+		"state": "Cape Town",
+		"phone": "(806) 555-552",
+		"email": "tomcruiz@alumni.rouxacademy.com",
+		"gradyear": 2009,
+		"gpa": 3.19,
+		"program": "Actor"
+	},
+	{
+		"id": 49013,
+		"last": "Alfek",
+		"first": "Ben",
+		"state": "Cape Town",
+		"phone": "(806) 555-552",
+		"email": "balflek@alumni.rouxacademy.com",
+		"gradyear": 2009,
+		"gpa": 3.19,
+		"program": "Actor"
+	},
+	{
+		"id": 49014,
+		"last": "Parrish",
+		"first": "Rajah",
+		"state": "New Mexico",
+		"phone": "(575) 555-193",
+		"email": "rparrish6@alumni.rouxacademy.com",
+		"gradyear": 2012,
+		"gpa": 2.33,
+		"program": "Software Engineer"
+	},
+	{
+		"id": 49015,
+		"last": "Joshua",
+		"first": "Antony",
+		"state": "Massachusetts",
+		"phone": "(978) 555-696",
+		"email": "ajoshua@alumni.rouxacademy.com",
+		"gradyear": 2004,
+		"gpa": 3.75,
+		"program": "Graphic Design"
+	},
+	{
+		"id": 49006,
+		"last": "Rodriguez",
+		"first": "Grey",
+		"state": "Illinois",
+		"phone": "(217) 555-685",
+		"email": "arodriguez@alumni.rouxacademy.com",
+		"gradyear": 2005,
+		"gpa": 3.23,
+		"program": "Software Developer"
+	}
+]
+
+
+

@@ -1,0 +1,3 @@
+/processed/*.json
+/incomplete/*.json
+errors.log
