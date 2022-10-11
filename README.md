@@ -92,6 +92,26 @@ If there are any errors, check the logfile
 less /apps/import_json_file/errors.log
 ```
 
+## Import data from xml file into mysql
+
+1. Connect to php container
+
+```bash
+docker-compose run php /bin/bash
+```
+
+2. Run script
+
+```bash
+php /apps/import_xml_file/process_xml.php
+```
+
+If there are any errors, check the logfile
+
+```bash
+less /apps/import_xml_file/errors.log
+```
+
 ## Mysql database
 
 Commands to check if the database, and the database tables were created.
