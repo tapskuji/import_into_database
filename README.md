@@ -138,6 +138,32 @@ If there are any errors, check the logfile
 less ./import_xls_file/errors.log
 ```
 
+## Import data from xlsx file into mysql
+
+1. Build composer image
+
+```bash
+docker-compose build composer
+```
+
+2. Install phpspreadsheet and monolog
+
+```bash
+docker-compose run -v "$PWD/import_xlsx_file/":/apps composer install
+```
+
+3. Run script
+
+```bash
+docker-compose run php php /apps/import_xlsx_file/process_xlsx.php
+```
+
+If there are any errors, check the logfile
+
+```bash
+less ./import_xlsx_file/errors.log
+```
+
 ## Mysql database
 
 Commands to check if the database, and the database tables were created.
