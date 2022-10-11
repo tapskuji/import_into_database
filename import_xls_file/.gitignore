@@ -1,0 +1,5 @@
+/processed/*.xls
+/incomplete/*.xls
+errors.log
+vendor
+cache
