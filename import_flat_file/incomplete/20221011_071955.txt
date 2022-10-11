@@ -1,0 +1,11 @@
+id|last|first|state|phone|email|gradyear|gpa|program
+52001|Kunde|Cary Cremin|London|+1.346.896.1725|ckunde@alumni.rouxacademy.com|2009|3.24|Programmer
+52002|Marvin|Stiedemann|Joneston|480.313.0361|mmarvin@alumni.rouxacademy.com|1978|2.83|Photography
+52003|Schamberger|Medhurst|North Ernestineton|770-648-9518|cschamberger@alumni.rouxacademy.com|2000|3.92|Photography
+52004|Ward|Blick|Lefflerchester|1-817-627-0662|bward@alumni.rouxacademy.com|1997|2.52|Programmer
+52003|Dare|Bins|Nickfort|(678) 882-0776|bdare@alumni.rouxacademy.com|1971|2.75|Tester
+52006|Green|Konopelski|Beahanhaven|+14842136884|mgreen@alumni.rouxacademy.com|1991|1.69|Graphic Design
+52007|Lind|Haag|Missouri|856.933.6703|dlind@alumni.rouxacademy.com|2010|3.2|Graphic Design
+52008|Gorczany|Colt Hoppe|Loraberg|(940) 307-7360|cgorczany@alumni.rouxacademy.com|1986|3.42|Photography
+52009|Howe|Brielle Vandervort|Missouri|1-920-588-7810|bhowe@alumni.rouxacademy.com|1972|2.23|Photography
+52010|Lubowitz|Prof. Tressie Bauch|Missouri|1-530-355-0703|plubowitz@alumni.rouxacademy.com|2008|1.74|Graphic Design

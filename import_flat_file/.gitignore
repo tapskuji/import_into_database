@@ -1,0 +1,3 @@
+/processed/*.csv
+/incomplete/*.csv
+errors.log
