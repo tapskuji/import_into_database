@@ -1,3 +1,3 @@
-/processed/*.csv
-/incomplete/*.csv
+/processed/*.txt
+/incomplete/*.txt
 errors.log
